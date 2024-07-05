@@ -1,0 +1,92 @@
+*{
+    margin:o;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+}
+body{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.tot{
+    width:350px;
+    height:550px;
+    background-color: rgb(52, 51, 51);
+    border:none;
+    border-radius:10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+.calc{
+    display: flex;
+    justify-content: center;
+}
+#display{
+    width:100%;
+    padding:20px;
+    font-size:4rem;
+    text-align: right;
+    border:none;
+    background-color: rgb(52, 51, 51);
+    color:white;
+}
+button{
+    background-color: rgb(78, 73, 73);
+    color:white;
+    border:none;
+    width:70px;
+    height:70px;
+    padding:3px;
+    border-radius: 50%;
+    margin: 5px;
+    font-size: 25px;
+    font-weight: 500;
+}
+button:hover{
+    background-color: rgb(117, 112, 112);
+    transition: 0.2s ease-in-out;
+}
+button:active{
+    background-color: rgb(183, 177, 177);
+}
+.r0 button{
+    background-color: rgb(162, 159, 159);
+    color:black;
+    font-weight: 500;
+    width:210px;
+    border-radius: 30px;
+}
+.r0 button:hover{
+    background-color: rgb(88, 85, 85);
+    color:white;
+}
+.r0 button:active{
+    background-color: rgb(183, 177, 177);
+}
+.r4 .zero{
+    width: 135px;
+    border-radius: 35px;
+    text-align: left;
+    padding-left:18px;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+}
+.two button{
+    background-color: rgb(244, 137, 7);
+    font-weight: 500;
+}
+.two button:hover{
+    background-color: #fff;
+    color:rgb(244, 137, 7);
+    transition: 0.2s ease-in-out;
+}
+.two button:active{
+    background-color: rgb(183, 177, 177);
+}
